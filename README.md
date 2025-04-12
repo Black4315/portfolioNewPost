@@ -20,7 +20,6 @@ A stylish and responsive **developer portfolio** designed with a dark luxury the
 🔗 [Visit the Portfolio](https://newpost-1.web.app/)
 
 ## 📄 License
-
-MIT License
+MIT License © 2025 Yahia Badr
 
 ---
