@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWPOST/About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shourtcut icon" href="./logo.png">
+    <meta property="og:description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://newpost-1.firebaseapp.com/" />
+    <link rel="canonical" href="https://newpost-1.firebaseapp.com/" />
+    <meta property="og:image" content="./logo url.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:site_name" content="NEWPOST" />
+</head>
+
+<body>
+    <!--header-->
+    <header id="header1" class="header header-786987807983848966">
+        <!--In localStorage-->
+    </header>
+    <!--header-->
+    <div class="section-footer section-footer-786987807983848966">
+
+        <section class="about-section about-section-786987807983848966" id="Services">
+            <div class="container">
+                <p class='home-page-p home-page-p-786987807983848966'>About Us < <span
+                        class='home-page home-page-786987807983848966'><a id="home-href" href="">Home
+                            Page</a></span></p>
+
+                <h1 class="card-title card-title-786987807983848966">About</h1>
+
+                <div class="newPost-mean newPost-mean-786987807983848966">
+                    <div class="logo-and-name logo-and-name-786987807983848966">
+
+                        <div class="logo logo-786987807983848966">
+                            <img src="./logo.png" alt="logo">
+                            <h1>EW POS</h1>
+                        </div>
+                    </div>
+
+                    <div class="content-mean content-mean-786987807983848966">
+                        <div class="mean mean-786987807983848966">
+                            <h1>What is the meaning of the New Post ?</h1>
+                            <div class="mean-p mean-p-786987807983848966">
+                                <p>
+                                    <span>1-</span> New Post it has no meaning, I wrote this word and took it as a
+                                    slogan for me and my site
+                                </p>
+                                <p>
+                                    <span>2- </span>New Post is my personal website
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="my-infobt my-infobt-786987807983848966">
+
+                    <h1>Info about me</h1>
+                    <p><span>Name :</span> Yahia Ahmed Badr</p>
+                    <p><span>Email :</span> yahialord4315@gmail.com</p>
+                    <!--p><span>Age :</span> <small id="yearOld" style="font-size: 1em;"> 14 </small> years old / June 3 ,
+                        2008</p-->
+                    <p>
+                        Hello,I was born in june 3,2008 and I started programming since January 3, 2021. In the first
+                        six months of experience, I was
+                        asked to do a project for competition on the Global Goals for Sustainable Development. Thanks to
+                        God,
+                        this project succeeded and I achieved first place in the competition. After that I developed
+                        myself
+                        in the field (front-end) and developed myself in HTML/HTML5, so I learned almost all the tags
+                        there and write code in an
+                        organized way, I also developed myself in CSS and JavaScript, where I learned it,
+                        Dom manupilation, Ajax, Fetch Api, Promises, asynchronouse js, js Es6, Json, reference,
+                        scoping/hosting/closures , jquery , git/github and Bundlers/Task Runners/Package manager and React.js. I am
+                        now trying to develop
+                        myself in the field (back-end) and I also learned editing photos because I was sure I would need
+                        it on websites
+                    </p>
+
+
+                </div>
+                <div class="yahia-newpost-img-786987807983848966--send-messege">
+                    <img src="./yahia(new post)-786987807983848966.png" alt="yahia(new post)">
+                </div>
+
+                <div class="social-media social-media-786987807983848966">
+                    <div class="social-icons social-icon-786987807983848966">
+                        <a href="https://www.facebook.com/yahia.ahmedbadr" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCD6NVogDrT_7gTAh5r26UgA" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://discord.com/users/665965893142183967" target="_blank"><i
+                                class="fa-brands fa-discord"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <footer id="footer">
+
+        </footer>
+    </div>
+
+
+    <div class="menu" id="menu-786987807983848966">
+
+    </div>
+
+
+
+    <div class="scrollUp"><i class="fa-solid fa-arrow-up"></i></div>
+
+
+    <script>
+        let = header = document.querySelector('#header1')
+        let = footer = document.querySelector('#footer')
+        let = menu = document.querySelector('#menu-786987807983848966')
+
+        header.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[0];
+        footer.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[1];
+        menu.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[2];
+        let menunav = document.querySelectorAll('.menu--nav-el')
+        let navel = document.querySelectorAll('.nav-el')
+
+        menunav.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+        navel.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+
+
+
+        let yearOld = document.querySelector('#yearOld')
+//let i = 14
+//let iY = 2
+//
+//let yearsDateY = `202${iY}`
+//let yearsDateM = 6
+//let yearsDateD = 3
+//
+//   function yearDate(){
+//    let date = new Date()
+//    yearOld.textContent = i
+//   if(yearsDateY == date.getFullYear() &&  yearsDateM == date.getMonth()+1 ){
+//    console.log(date.getMonth())
+//  }else {
+//    i+=1 }
+//   }
+//   
+//onload =function(){
+//   setInterval(yearDate,1)
+//}
+//
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

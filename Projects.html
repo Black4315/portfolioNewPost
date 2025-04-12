@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWPOST/Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shourtcut icon" href="./logo.png">
+    <meta property="og:description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://newpost-1.firebaseapp.com/" />
+    <link rel="canonical" href="https://newpost-1.firebaseapp.com/" />
+    <meta property="og:image" content="./logo url.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:site_name" content="NEWPOST" />
+
+</head>
+
+<body>
+
+    <header id="header1" class="header">
+
+    </header>
+
+    <div class="section-footer">
+
+        <section class="project-section" id='Projects' style="margin-top: 110px;">
+            <div class="container">
+                <p style="color: #888888;" class='home-page-p'>Projects < <span class='home-page'><a
+                    id="home-href"   href="">Home Page</a></span></p>
+                <h1 class="card-title">Projects</h1>
+
+                <div class="project-content">
+
+                    <div class="project-card" onmouseenter="cardHover(this,this)"
+                        onmouseleave="cardHoverLeave(this,this)">
+                        <a href="https://black4315.github.io/The-global-goals.zls/" target="_parent">
+                            <div class="project-img">
+                                <img src="./Image_16x9_globalgoals.jpg" alt="THE GLOBAL GOALS logo">
+                            </div>
+                            <div class="project-body-text">
+                                <p class="card-p-to-Hover">THE GLOBAL GOALS is 17 Goals that will change the world
+                                    developed By HTML,CSS,JS</p>
+                                <div class="link-and-h2 link-and-h2-786987807983848966">
+                                    <h2 id="card-h2">THE GLOBAL GOALS</h2> <span>More details</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-card  project-card-786987807983848966" onmouseenter="cardHover(this,this)"
+                    onmouseleave="cardHoverLeave(this,this)">
+                    <a href="https://xo-game1.firebaseapp.com/" target="_parent">
+                        <div class="project-img project-img-786987807983848966">
+                            <img src="./XOgame.png" alt="XO logo" width="100%">
+                        </div>
+                        <div class="project-body-text project-body-text-786987807983848966">
+                            <p class="card-p-to-Hover card-p-to-Hover-786987807983848966">IF you want to to play XO game with your friend visit this web site developed By HTML,CSS,JS
+                            </p>
+                            <div class="link-and-h2 link-and-h2-786987807983848966">
+                                <h2 id="card-h2">xo game</h2> <span>More details</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+
+        <footer id="footer">
+
+        </footer>
+
+    </div>
+
+
+    <div class="menu" id="menu-786987807983848966">
+    </div>
+
+
+
+    <div class="scrollUp"><i class="fa-solid fa-arrow-up"></i></div>
+
+
+    <script>
+        let = header = document.querySelector('#header1')
+        let = footer = document.querySelector('#footer')
+        let = menu = document.querySelector('#menu-786987807983848966')
+
+
+
+
+        header.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[0];
+        footer.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[1];
+        menu.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[2];
+        let menunav = document.querySelectorAll('.menu--nav-el')
+        let navel = document.querySelectorAll('.nav-el')
+
+        menunav.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+        navel.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

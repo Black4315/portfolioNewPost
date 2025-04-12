@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWPOST/React.js Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shourtcut icon" href="./logo.png">
+    <meta property="og:description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://newpost-1.firebaseapp.com/" />
+    <link rel="canonical" href="https://newpost-1.firebaseapp.com/" />
+    <meta property="og:image" content="./logo url.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:site_name" content="NEWPOST" />
+
+</head>
+<style>
+    .react-card--section .element-logo i {
+        color: var(--card-react-color);
+       
+    }
+    .card-pages-section .main-part-pages-section .main-details--progress .progress .inner-side .number-or-logo i{
+        animation: reactJsRotation 8s infinite linear;
+    }
+   
+</style>
+
+<body>
+
+    <header id="header1" class="header">
+
+    </header>
+
+    <div class="section-footer">
+
+        <section class="card-pages-section react-card--section" cardName="REACT"  cardMainColor="card-react-color" id='react-card'
+            style="margin-top: 110px;">
+            <div class="container">
+                <p style="color: #888888;" class='home-page-p'>React.js < <span class='home-page'><a
+                    id="home-href" href="">Home Page</a></span></p>
+
+                <div class="element-logo--card-title">
+                    <div class="element-logo">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <h1 class="card-title">REACT JS</h1>
+                </div>
+                <div class="main-part-pages-section">
+
+                    <div class="intro-text">
+                        <h1>REACT JS</h1>
+                        <p><!--(skill.json).cardContent--></p>
+                    </div>
+                    <div class="main-details--progress">
+                        <div class="main-details">
+                            <!--(skill.json).cardDetails-->
+                        </div> 
+         
+                        <div class="progress">
+                            <div class="element-progress">
+                           <div class="outer-side">
+                            <div class="inner-side">
+                                <div class="number-or-logo">
+                                    <i class="fa-brands fa-react"></i>
+                                </div> 
+                            </div>
+                           </div>
+        
+                           <svg width="160px" height="160px">
+                            <circle cx="80" cy='80' r="70" stroke-linecap="round">
+                           </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <div class="about-link">
+                            <a href="About.html"><button><span class="text">About Me</span> <span class="circle"></span></button></a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <footer id="footer">
+
+        </footer>
+
+    </div>
+
+
+    <div class="menu" id="menu-786987807983848966">
+    </div>
+
+
+
+    <div class="scrollUp"><i class="fa-solid fa-arrow-up"></i></div>
+
+
+    <script>
+        let = header = document.querySelector('#header1')
+        let = footer = document.querySelector('#footer')
+        let = menu = document.querySelector('#menu-786987807983848966')
+
+
+
+
+        header.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[0];
+        footer.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[1];
+        menu.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[2];
+        let menunav = document.querySelectorAll('.menu--nav-el')
+        let navel = document.querySelectorAll('.nav-el')
+
+        menunav.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+        navel.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+
+        localStorage.setItem('pageMood', 'skillCardPage')
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

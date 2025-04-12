@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "cardName": "HTML",
+    "cardContent": "HTML 5 I learned HTML 5 almost completely because it is an easy markup language and I also write it in a modern style",
+    "mainColor":"card-html-color",
+    "progress": "95",
+    "Pagelink":"html.html",
+    "cardDetails": [
+      "Basic and Advanced Syntax",
+      "HTML Semantics",
+      "Meta Tags",
+      "SVG",
+      "SEO",
+      "Links"
+    ]
+  },
+  {
+    "id": 2,
+    "cardName": "CSS",
+    "cardContent": "CSS is one of the most beautiful style language ​​for me, and I believe I have enough experience to create a website built on the latest designs",
+    "mainColor":"card-css-color",
+    "progress": "85",
+    "Pagelink":"css.html",
+    "cardDetails": [
+      "CSS Specifty",
+      "Positioning",
+      "Display",
+      "Box Models",
+      "CSS Grid",
+      "Media Queries",
+      "Floats",
+      "Box Models",
+      "Flex Box",
+      "CSS Animation"
+    ]
+    
+  },
+  {
+    "id": 3,
+    "cardName": "JS",
+    "cardContent": "JAVA SCRIPT It is really a important programming language and I am striving to learn more about it to get better and better But I have enough experience to build an integrated website",
+    "mainColor":"card-js-color",
+    "progress": "80",
+    "Pagelink":"js.html",
+    "cardDetails": [
+      "JavaScript Fundamentals",
+      "Basic and Advanced Syntax",
+      "Dom Manupilation",
+      "OOP",
+      "AJAX / Fetch API / Promises",
+      "Asynchronous Js",
+      "Scoping / Hosting / Closures",
+      "Refrence / Value",
+      "JSON",
+      "JS ES6",
+      "JQUERY"
+    ]
+  },
+  {
+    "id": 4,
+    "cardName": "PS",
+    "cardContent": "Editing photos I have almost enough experience in this field, so I can create and edit photos in the best way. I will do my best / use photoshop",
+    "mainColor":"card-Ps-color",
+    "progress": "60",
+    "Pagelink":"ps.html"
+  },
+  {
+    "id": 5,
+    "cardName": "REACT",
+    "cardContent": "It is one of the most popular JavaScript libraries so I decided to learn it , In a short time I learned a lot about it and how to create frontends by using it , Now I'm on my way to gain enough experience Which will make me use (react.js) with minimal effort",
+    "progress": "60",
+    "Pagelink":"react.html",
+    "mainColor":"card-react-color",
+    "cardDetails": [
+      "JSX",
+      "HTML + CSS",
+      "JavaScript Fundamentals + ES6"
+      
+
+
+
+    ]
+  }
+]

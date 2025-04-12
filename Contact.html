@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWPOST/Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shourtcut icon" href="./logo.png">
+    <meta property="og:description"
+        content="If you are looking for web developer,This website is the best choice for you,(New Post) is the official website of the programmer Yahia Badr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://newpost-1.firebaseapp.com/" />
+    <link rel="canonical" href="https://newpost-1.firebaseapp.com/" />
+    <meta property="og:image" content="./logo url.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:site_name" content="NEWPOST" />
+
+</head>
+
+<body>
+
+    <header id="header1" class="header header-786987807983848966">
+
+    </header>
+
+
+    <div class="section-footer section-footer-786987807983848966">
+        <section class="tel-section tel-section-786987807983848966" style=" margin-top: 125px; margin-bottom: 70px;">
+            <div class="container">
+                <p style="color: #888888;" class='home-page-p home-page-p-786987807983848966'>Contact Us < <span
+                        class='home-page'><a id="home-href" href="">Home Page</a></span></p>
+                <h1 class="card-title card-title-786987807983848966">Contact Us</h1>
+
+                <div class="content conten2 conten2-786987807983848966">
+
+                    <div class="card card-786987807983848966" onmouseenter="cardHover(this,null)"
+                        onmouseleave="cardHoverLeave(this,null)">
+                        <div class="card-icon card-icon-786987807983848966">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="card-body-text card-body-text-786987807983848966">
+                            <h2 id="card-h2">Phone</h2>
+                            <p>+201019153027</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-786987807983848966" onmouseenter="cardHover(this,null)"
+                        onmouseleave="cardHoverLeave(this,null)">
+                        <div class="card-icon card-icon-786987807983848966">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="card-body-text card-body-text-786987807983848966">
+                            <h2 id="card-h2">Email</h2>
+                            <div class="tel-card-p tel-card-p-786987807983848966">
+                                <p>yahialord4315@gmail.com</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card card-786987807983848966" onmouseenter="cardHover(this,null)"
+                        onmouseleave="cardHoverLeave(this,null)">
+                        <div class="card-icon card-icon-786987807983848966">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="card-body-text card-body-text-786987807983848966">
+                            <h2 id="card-h2">Facebook</h2>
+                            <p><a href="https://www.facebook.com/yahia.ahmedbadr" target="_blank"
+                                    style="text-decoration: none;color: white;">yahia.ahmedbadr</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+        </section>
+
+
+
+        <footer id="footer">
+        </footer>
+    </div>
+    <div class="menu" id="menu-786987807983848966">
+    </div>
+
+    <div class="scrollUp"><i class="fa-solid fa-arrow-up"></i></div>
+
+
+    <script>
+        let = header = document.querySelector('#header1')
+        let = footer = document.querySelector('#footer')
+        let = menu = document.querySelector('#menu-786987807983848966')
+
+
+
+
+        header.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[0];
+        footer.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[1];
+        menu.innerHTML = JSON.parse(localStorage.getItem('headerFooter'))[2];
+        let menunav = document.querySelectorAll('.menu--nav-el')
+        let navel = document.querySelectorAll('.nav-el')
+
+        menunav.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+        navel.forEach((item) => {
+
+            item.addEventListener('click', () => {
+                closeMenu()
+                window.location.href = `${item.getAttribute('data-link')}.html`
+            })
+
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
