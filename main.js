@@ -30,12 +30,13 @@ window.onscroll = function () {
         if (scrollY >= 50 && menuBtn.getAttribute('onclick') === 'openMenu()') {
 
 
-            header.style.backgroundColor = '#40484e';
+            header.style.backgroundColor = '#2f363b';
+            header.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.5)';
             header.style.transition = '0.4s';
 
         }
         else {
-            header.style.backgroundColor = ''
+            header.style={}
 
         }
     }

@@ -14,16 +14,16 @@ body {
     --primary-sec-color: #f16e22;
     --primary-sec-2-color: #f44336;
     --primary-color-2: #01665c;
-    --secoundry-color: #40484e;
+    --secoundry-color: #2f363b;
     --card-color: #0e0e0e;
-    --footer-background: #22272c;
-    --body-background: #292e32;
+    --footer-background: #0e1012;
+    --body-background: #131518;
     --font-Tajawal: 'Tajawal', sans-serif;
     --font-Roboto: 'Roboto', sans-serif;
     --link-color: #888888;
     --card-paragraph-color: #c4c4c4;
     --card-html-color2: #e34c26;
-    --card-html-color: #f06529;
+    --card-html-color: #030303;
     --card-js-color: #f0db4f;
     --card-js-color2: #c7ab1a;
     --card-css-color2: #264de4;
@@ -34,7 +34,7 @@ body {
     --transition: 0.4s;
     font-size: 20px;
     box-sizing: border-box;
-    background-color: #292e32;
+    background-color: #131518;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 
@@ -179,7 +179,7 @@ body {
 }
 
 header {
-
+    transition: 0.4s;
     position: fixed;
     z-index: 999;
     top: 0px;
@@ -856,8 +856,8 @@ section .container {
 /*footer*/
 footer {
 
-    background: linear-gradient(120deg, var(--footer-background) 0%, var(--footer-background) 40%, rgb(64, 72, 79) 40%);
-    box-shadow: 0px -8px rgba(64, 72, 79, 100%);
+    background: linear-gradient(120deg, var(--footer-background) 0%, var(--footer-background) 40%, var(--secoundry-color) 40%);
+    box-shadow: 0px -8px var(--secoundry-color);
     min-height: 350px;
     padding: 10px;
     border-radius: 200px 0px 0px 0px;
@@ -1046,7 +1046,7 @@ footer .body .left-side .social-icons i:hover {
 
 /*menu*/
 .menu {
-    background: linear-gradient(120deg, var(--footer-background) 0%, var(--footer-background) 40%, rgb(64, 72, 79) 40%);
+    background: linear-gradient(120deg, var(--footer-background) 0%, var(--footer-background) 40%, var(--secoundry-color) 40%);
     padding: 10px 0px;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
