@@ -17,6 +17,8 @@ A stylish and responsive **developer portfolio** designed with a dark luxury the
 
 ## 📸 Live Preview
 
+![Screenshot](./screenshot.png) 
+
 🔗 [Visit the Portfolio](https://newpost-1.web.app/)
 
 ## 📄 License
