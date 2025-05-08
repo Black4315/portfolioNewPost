@@ -9,7 +9,7 @@ A stylish and responsive **developer portfolio** designed with a dark luxury the
 - Sections: About, Projects, Skills, Contact , Services
 - External project links and social media integration
 
-## 🛠Tech Stack
+## Tech Stack
 
 - HTML
 - CSS
