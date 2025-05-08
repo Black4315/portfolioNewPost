@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://newpost-1.web.app/">
-    <img src="./screenshot.png" alt="Portfolio Preview" height="450" />
+    <img src="./screenshot.png" alt="Portfolio Preview" />
   </a>
 
   <h3 align="center">portfolioNewPost</h3>
